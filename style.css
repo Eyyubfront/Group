@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.sinxro {
+    width: 112px;
+    height: 66px;
+    top: 21px;
+    left: 121px;
+}
+.globe {
+    width: 22px;
+    height: 21px;
+    top: 184px;
+    left: 121px;
+}
+.watch {
+    width: 22px;
+    height: 22px;
+    top: 183px;
+    left: 306px;
+}
+.calendar {
+    width: 20px;
+    height: 22px;
+
+}
+.kurs {
+    width: 130px;
+    height: 21px;
+    top: 187px;
+    left: 151px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+.saat {
+    width: 130px;
+    height: 21px;
+    top: 187px;
+    left: 338px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+.sentyabr {
+    width: 130px;
+    height: 21px;
+    top: 187px;
+    left: 500px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+h1 {
+    width: 628px;
+    height: 190px;
+    top: 248px;
+    left: 122px;
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 81.11px;
+    color: #000000;
+    margin-top: 12px;
+}
+h2 {
+    width: 414px;
+    height: 62px;
+    top: 427px;
+    left: 122px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    margin-top: -45px;
+}
+.top {
+    display: flex;
+    flex-direction:row ;
+    align-items: center;
+}
+.vse {
+    display: flex;
+    flex-direction: column;
+}
+.header_icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.card_center{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.people {
+    width: 304px;
+    height: 356px;
+    top: 223px;
+    left: 890px;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+header {
+    margin-left: 80px;
+}
+.card_center {
+    padding: 80px;
+}
+h3 {
+    font-family: "Roboto Slab", serif;
+  text-align: left;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 18px;
+}
+.botom_text{
+    border: 1px solid #1E4681;
+    background-color: #1E4681;
+    color: #FFFFFF;
+    width: 380px;
+    height: 121px;
+    text-align: center;
+    padding: 15px;
+    margin: auto;
+}
+.andrey {
+    text-align: end;
+}
+@media (min-width: 420px) and (min-width: 576px) {
+    .sinxro{
+        width: 52.19px;
+        height: 30.75px;
+    }
+    .globe {
+        width: 10.25px;
+        height: 9.79px;
+    }
+    .kurs {
+        width: 60.58px;
+        height: 14.91px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 10px;
+    }
+    .watch {
+        width: 10.25px;
+        height: 10.25px;
+    }
+    .saat {
+        width: 60.58px;
+        height: 14.91px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 10px;
+    }
+    
+}
+@media (min-width: 577px) and (min-width: 991px) {
+    
+}
