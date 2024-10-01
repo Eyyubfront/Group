@@ -81,7 +81,7 @@ footer{
 .course_start{
     background-color: #9DC9C8;
   padding: 60px 51px;
-    height: 400px;
+    height: 475px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -90,10 +90,10 @@ footer{
     display: flex;
 }
 .text_p{
-    width: 42%;
+    width: 47%;
 }
 .text_one{
-    width: 38%;
+    width: 45%;
 }
 .number{
     font-size: 40px;
