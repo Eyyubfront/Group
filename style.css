@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto,sans-serif;
+}
+footer{
+    background-color: #000000;
+    color: #FFFFFF;
+    height: 390px;
+    width: 100% !important;
+}
+.footer_container{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.footer_card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding: 20px;
+}
+.left_bottom{
+    margin-top: 8%;
+    margin-left: 3%;
+}
+.footer_right{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: relative;
+}
+.left_icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.right__phone{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+.right_mail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+.icons_footers {
+    width: 21px;
+    height: 23px;
+}
+.leftlogo{
+    width: 115px;
+    height: 68px;
+}
+.left_top{
+    display: flex;
+    gap: 45px;
+    flex-direction: column;
+}
+.footer_left{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.phones_icons{
+    width: 20px;
+    height: 20px;
+}
+.mails_icons{
+    width: 20px;
+    height: 20px;
+}
+.course_start{
+    background-color: #9DC9C8;
+  padding: 60px 51px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.section_cardtext{
+    display: flex;
+}
+.text_p{
+    width: 42%;
+}
+.text_one{
+    width: 38%;
+}
+.number{
+    font-size: 40px;
+    font-weight: 500;
+}
+.section_tittle{
+    font-size: 70px;
+    font-family: "Roboto Slab", serif;
+}
+.card_text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.cardtext_top{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+@media (min-width: 420px) and (max-width: 576px){
+    .footer_card {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .left_top {
+        display: flex;
+        gap: 22px;
+        flex-direction: column;
+    }
+  .left_icons {
+    margin-bottom: 32px;
+  }
+  .phones_icons{
+    width: 12.58px;
+    height: 12.58px;
+}
+.mails_icons{
+    width: 12.58px;
+    height: 8.39px;
+}
+.icons_footers {
+    width: 15.38px;
+    height: 15.38px;
+}
+.leftlogo{
+    width: 53.59px;
+    height: 31.69px;
+}
+.left_bottom {
+    font-size: 13px;
+    margin-left: 9%;
+}
+.section_tittle {
+    font-size: 34px;
+    width: 88%;
+}
+.course_start{
+    padding: 35px 51px !important;
+
+}
+.number {
+    font-size: 30px;
+    font-weight: 500;
+}
+.text_one {
+    width: 96%;
+    font-size: 15px;
+}
+.text_p{
+    width: 100%;
+    font-size: 15px;
+}
+.card_text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.section_cardtext {
+    display: flex;
+    gap: 20px;
+}
+}
+
+
+@media (min-width: 577px) and (max-width: 991px) {
+   
+    .left_top {
+        display: flex;
+        gap: 22px;
+        flex-direction: column;
+    }
+  .left_icons {
+    margin-bottom: 32px;
+  }
+  .phones_icons{
+    width: 15.64px;
+    height:15.64px;
+}
+.mails_icons{
+    width:15.64px;
+    height: 10.43px;
+}
+.icons_footers {
+    width: 19.69px;
+    height: 19.69px;
+}
+.leftlogo{
+    width: 66.6px;
+    height: 39.38px;
+}
+.left_bottom{
+    font-size: 15px;
+    margin-left: 4%;
+}
+.section_tittle{
+    font-size: 50px;
+    font-family: "Roboto Slab", serif;
+}
+.number {
+    font-size: 35px;
+    font-weight: 500;
+}
+.text_one {
+    width: 81%;
+}
+.text_p {
+    width: 91%;
+
+}
+.card_text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.course_start{
+    padding: 34px 50px !important;
+ 
+}
+.section_tittle {
+    font-size: 50px !important;
+    font-family: "Roboto Slab", serif;
+    width: 89% !important;
+}
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1072px) {
+    .section_tittle {
+        font-size: 50px !important;
+        font-family: "Roboto Slab", serif;
+        width: 49% !important;
+    }
+    .course_start{
+      padding: 40px 51px !important;
+    }
+    .text_one {
+        width: 50%;
+    }
+    .text_p {
+        width: 53%;
+    }
+}
