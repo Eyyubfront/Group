@@ -54,63 +54,6 @@ line-height: 39px;
 margin-bottom: 20px;
 
 }
-@media (max-width:991px){
-    .grid-part h2 {
-        font-size: 32px;
-        margin-bottom: 60px;
-        
-        }
-.grid-sec{
-    gap: 30px;
-}
-.item{
-    border-radius:18px ;
-}
-.info{
-    padding: 15px;
-}
-p{
-font-size: 14px;
-font-weight: 300;
-line-height: 18.2px;
-
-}
-.item h3{
-font-size:17px;
-line-height: 22.1px;
-margin-bottom: 20px;
-
-}
-
-
-}
-
-
-@media  (max-width:576px){
-
-    .grid-sec {
-        display: grid;
-        grid-template-columns:  60%;
-        gap: 30px;
-        justify-content: center; 
-        align-content: center; 
-      }
-      .item {
-      border-radius: 25px;
-    }
-
-}
-
-
-
-=======
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Roboto,sans-serif;
-}
 footer{
     background-color: #000000;
     color: #FFFFFF;
@@ -216,6 +159,52 @@ footer{
 .cardtext_top{
     font-weight: 400;
     font-size: 20px;
+}
+@media (max-width:991px){
+    .grid-part h2 {
+        font-size: 32px;
+        margin-bottom: 60px;
+        
+        }
+.grid-sec{
+    gap: 30px;
+}
+.item{
+    border-radius:18px ;
+}
+.info{
+    padding: 15px;
+}
+p{
+font-size: 14px;
+font-weight: 300;
+line-height: 18.2px;
+
+}
+.item h3{
+font-size:17px;
+line-height: 22.1px;
+margin-bottom: 20px;
+
+}
+
+
+}
+
+
+@media  (max-width:576px){
+
+    .grid-sec {
+        display: grid;
+        grid-template-columns:  60%;
+        gap: 30px;
+        justify-content: center; 
+        align-content: center; 
+      }
+      .item {
+      border-radius: 25px;
+    }
+
 }
 
 
