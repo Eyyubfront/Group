@@ -101,6 +101,7 @@ footer{
 }
 .section_tittle{
     font-size: 70px;
+    width: 70%;
     font-family: "Roboto Slab", serif;
 }
 .card_text{
