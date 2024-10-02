@@ -282,7 +282,7 @@ footer{
     width: 45%;
 }
 .number{
-    font-size: 40px;
+    font-size: 60px;
     font-weight: 500;
 }
 .section_tittle{
@@ -306,6 +306,11 @@ footer{
     font-weight: bold;
     margin-bottom: 60px;
     
+    }
+    .section_head{
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
     }
 
 @media (max-width:991px){
