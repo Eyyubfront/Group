@@ -421,4 +421,66 @@ li {
 }
 
 @media (max-width: 530px) {
+  .course-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  h2.first {
+    font-size: 26px;
+  }
+  .course-content {
+    margin-bottom: 0px;
+  }
+  .course-text {
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .stat {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .stat h3 {
+    font-size: 12px;
+  }
+
+  .stat p {
+    font-size: 10px;
+  }
+
+  h2.second {
+    font-size: 26px;
+  }
+
+  .format-item h3 {
+    font-size: 12px;
+  }
+
+  .format-item p {
+    font-size: 10px;
+  }
+
+  h2.third {
+    font-size: 26px;
+  }
+
+  li {
+    font-size: 12px;
+  }
+
+  .course-image img {
+    width: 170.55px;
+    height: 160.29px;
+  }
+
+  .course-image3 img {
+    display: none;
+  }
+
+  .course-image4 img {
+    display: none;
+  }
 }
