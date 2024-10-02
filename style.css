@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
 body{
     height: 100vh;
  
@@ -9,6 +10,7 @@ body{
    box-sizing: border-box;
    font-family: Roboto,sans-serif;
  }
+
 .sinxro {
     width: 112px;
     height: 66px;
@@ -514,6 +516,105 @@ margin-bottom: 20px;
 
 
 @media (min-width: 577px) and (max-width: 991px) {
+      .sinxro {
+        width: 64.87px;
+        height: 38.23px;
+        position: absolute;
+        left: 20px;
+    }
+    .globe {
+        width: 12.74px;
+        height: 12.16px;
+    }
+    .kurs {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+    }
+    .watch {
+        width: 12.74px;
+        height: 12.74px;
+    }
+    .saat {
+        width: 75.29px;
+        height: 18.53px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        color: #000000;
+    }
+    .calendar {
+        width: 11.58px;
+        height: 12.74px;
+    }
+    .sentyabr {
+        width: 75.29px;
+        height: 18.53px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+    }
+    h1 {
+        width: 363.72px;
+        height: 110.04px;
+        font-family: "Roboto Slab", serif;
+        font-weight: 700;
+        font-size: 46px;
+        line-height: 46.64px;
+        color: #000000;
+        margin-top: 12px;
+    }
+    h2 {
+        width: 264px;
+        height: 36px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        color: #000000;
+        margin-top: -45px;
+    }
+    .people {
+        width: 176.07px;
+        height: 206.18px;
+    }
+    .card_center {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: baseline;
+        margin-left: 0px !important;
+    }
+    .title_text{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    .botom_text {
+        border: 1px solid #1E4681;
+        background-color: #1E4681;
+        color: #FFFFFF;
+        width: 280.11px;
+        height: 115.83px;
+        text-align: center;
+        padding: 15px;
+        margin: auto;
+    }
+    h3 {
+        font-family: "Roboto Slab", serif;
+        text-align: left;
+        border-radius: 5px;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .andrey {
+        font-size: 12px;
+    }
     .sinxro {
         width: 64.87px;
         height: 38.23px;
