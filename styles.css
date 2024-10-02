@@ -119,6 +119,11 @@ h2.third {
   width: 90%;
 }
 
+.stat-main {
+  display: flex;
+  flex-direction: row;
+}
+
 .stat {
   /* flex: 1; */
   margin: 0 10px;
@@ -437,7 +442,7 @@ li {
     font-weight: 400;
   }
 
-  .stat {
+  .stat-main {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -453,6 +458,11 @@ li {
 
   h2.second {
     font-size: 26px;
+  }
+
+  .format-info {
+    display: flex;
+    flex-direction: column;
   }
 
   .format-item h3 {
