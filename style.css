@@ -342,6 +342,362 @@ h3{
     font-size: 17px;
     text-align: end;
 }
+.course {
+    width: 90%;
+    padding: 50px;
+    margin: 0 auto;
+  }
+  
+  .cont1 {
+    width: 100%;
+  }
+  .cont2 {
+    width: 90%;
+  }
+  
+  h2.first {
+    /* width: 365px;
+    height: 93px; */
+    top: 1040px;
+    left: 121px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 55.76px;
+    text-align: left;
+    margin-bottom: 40px;
+  }
+  
+  h2.second {
+    width: 667px;
+    height: 93px;
+    top: 2000px;
+    left: 121px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto Slab;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 55.76px;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  
+  h2.third {
+    width: 667px;
+    height: 93px;
+    top: 2510px;
+    left: 121px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto Slab;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 55.76px;
+    text-align: left;
+  }
+  
+  .course-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    /* margin-bottom: 100px; */
+  }
+  
+  .course-text {
+    /* flex: 1;
+    margin-right: 20px; */
+    width: 662px;
+    height: 374px;
+    top: 1151px;
+    left: 121px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+  }
+  .course-text p {
+    margin-bottom: 20px;
+  }
+  
+  .course-image img {
+    /* position: absolute; */
+    width: 314px;
+    height: 315px;
+    /* top: -210px; */
+    /* left: 110px; */
+    gap: 0px;
+    opacity: 0px;
+    z-index: 100;
+  }
+  
+  /* .course-image2 img {
+    position: absolute;
+    width: 366px;
+    height: 59px;
+    top: 75px;
+    left: 85px;
+    gap: 0px;
+    opacity: 0px;
+  } */
+  
+  .course-stats {
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: relative; */
+    width: 90%;
+  }
+  
+  .stat-main {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .stat {
+    /* flex: 1; */
+    margin: 0 10px;
+  }
+  
+  .stat h3.first {
+    width: 150px;
+    height: 39px;
+    top: 1689px;
+    left: 485px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 32.5px;
+    text-align: left;
+  }
+  
+  .stat h3.second {
+    width: 150px;
+    height: 39px;
+    top: 1689px;
+    left: 730px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 32.5px;
+    text-align: left;
+  }
+  
+  .stat h3.third {
+    width: 150px;
+    height: 39px;
+    top: 1689px;
+    left: 973px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 32.5px;
+    text-align: left;
+  }
+  
+  .stat p.first {
+    width: 150px;
+    height: 39px;
+    top: 1729px;
+    left: 485px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.4px;
+    text-align: left;
+  }
+  
+  .stat p.second {
+    width: 150px;
+    height: 39px;
+    top: 1729px;
+    left: 730px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.4px;
+    text-align: left;
+  }
+  
+  .stat p.third {
+    width: 150px;
+    height: 39px;
+    top: 1729px;
+    left: 973px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.4px;
+    text-align: left;
+  }
+  
+  .imgs {
+    z-index: 1000;
+    width: 20%;
+    height: 100%;
+    position: relative;
+  }
+  
+  .course-image3 img {
+    width: 232px;
+    height: 203px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  
+  .course-image4 {
+    z-index: -111;
+    position: absolute;
+    width: 189px;
+    height: 32px;
+    gap: 0px;
+    opacity: 0px;
+    bottom: -12px;
+    left: 30px;
+  }
+  .course-image4 img {
+    bottom: 10px;
+    width: 100%;
+  }
+  .format-info {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+  
+  .format-item {
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .format-item h3.first {
+    width: 150px;
+    height: 39px;
+    top: 2182px;
+    left: 122px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 32.5px;
+    text-align: left;
+    color: #1e4681;
+  }
+  
+  .format-item h3.second {
+    /* width: 150px;
+    height: 39px; */
+    top: 2182px;
+    left: 467px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 32.5px;
+    text-align: left;
+    color: #1e4681;
+  }
+  
+  .format-item h3.third {
+    /* width: 150px;
+    height: 39px; */
+    top: 2182px;
+    left: 851px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 32.5px;
+    text-align: left;
+    color: #1e4681;
+  }
+  
+  .format-item p.first {
+    width: 223px;
+    height: 39px;
+    top: 2222px;
+    left: 122px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.4px;
+    text-align: left;
+  }
+  
+  .format-item p.second {
+    width: 271px;
+    height: 109px;
+    top: 2222px;
+    left: 467px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.4px;
+    text-align: left;
+  }
+  
+  .info {
+    margin-top: 140px;
+  }
+  
+  .format-item p.third {
+    width: 245px;
+    height: 39px;
+    top: 2222px;
+    left: 851px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.4px;
+    text-align: left;
+  }
+  
+  ul {
+    list-style-type: disc;
+    /* padding-left: 20px; */
+  }
+  
+  li {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    width: 662px;
+    /* height: 374px; */
+    top: 2624px;
+    left: 138px;
+    gap: 0px;
+    opacity: 0px;
+    /* margin-bottom: 10px; */
+  }
 @media (max-width:991px){
     .grid-part h2 {
         font-size: 32px;
@@ -373,7 +729,68 @@ margin-bottom: 20px;
 
 
 }
-
+@media (max-width: 997px) {
+    h2.first {
+      font-size: 32px;
+    }
+    .course-content {
+      margin-bottom: 0px;
+    }
+    .course-text {
+      font-size: 14px;
+      font-weight: 400;
+    }
+  
+    .stat h3 {
+      font-size: 15px;
+    }
+  
+    .stat p {
+      font-size: 11px;
+    }
+  
+    h2.second {
+      font-size: 32px;
+    }
+  
+    .format-item h3 {
+      font-size: 15px;
+    }
+  
+    .format-item p {
+      font-size: 11px;
+    }
+  
+    h2.third {
+      font-size: 32px;
+    }
+  
+    li {
+      font-size: 14px;
+    }
+  
+    .course-image img {
+      width: 181.86px;
+      height: 182.44px;
+    }
+  
+    /* .course-image2 img {
+      width: 211.98px;
+      height: 34.17px;
+  
+    } */
+  
+    .course-image3 img {
+      width: 134.37px;
+      height: 117.57px;
+    }
+  
+    .course-image4 img {
+      width: 109.46px;
+      height: 18.53px;
+    }
+  }
+  
 
 @media  (max-width:576px){
 
@@ -389,7 +806,75 @@ margin-bottom: 20px;
     }
 
 }
-
+@media (max-width: 530px) {
+    .course-content {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    h2.first {
+      font-size: 26px;
+    }
+    .course-content {
+      margin-bottom: 0px;
+    }
+    .course-text {
+      font-size: 12px;
+      font-weight: 400;
+    }
+  
+    .stat-main {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+  
+    .stat h3 {
+      font-size: 12px;
+    }
+  
+    .stat p {
+      font-size: 10px;
+    }
+  
+    h2.second {
+      font-size: 26px;
+    }
+  
+    .format-info {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .format-item h3 {
+      font-size: 12px;
+    }
+  
+    .format-item p {
+      font-size: 10px;
+    }
+  
+    h2.third {
+      font-size: 26px;
+    }
+  
+    li {
+      font-size: 12px;
+    }
+  
+    .course-image img {
+      width: 170.55px;
+      height: 160.29px;
+    }
+  
+    .course-image3 img {
+      display: none;
+    }
+  
+    .course-image4 img {
+      display: none;
+    }
+  }
 
 @media (min-width: 420px) and (max-width: 576px){
     .section_head{
