@@ -1,153 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
-
 body{
-    height: 100vh;
- 
- }
- * {
-   margin: 0;
-   box-sizing: border-box;
-   font-family: Roboto,sans-serif;
- }
-
-.sinxro {
-    width: 112px;
-    height: 66px;
-    margin-left: 6%;
-}
-.globe {
-    width: 22px;
-    height: 21px;
-    top: 184px;
-    left: 121px;
-}
-.watch {
-    width: 22px;
-    height: 22px;
-    top: 183px;
-    left: 306px;
-}
-.calendar {
-    width: 20px;
-    height: 22px;
+   height: 100vh;
 
 }
-.kurs {
-    width: 130px;
-    height: 21px;
-    top: 187px;
-    left: 151px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
-    color: #000000;
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Roboto,sans-serif;
 }
-.saat {
-    width: 130px;
-    height: 21px;
-    top: 187px;
-    left: 338px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
-    color: #000000;
-}
-.sentyabr {
-    width: 130px;
-    height: 21px;
-    top: 187px;
-    left: 500px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
-    color: #000000;
-}
-h1 {
-    width: 628px;
-    font-family: "Roboto Slab", serif;
-    font-weight: 700;
-    font-size: 80px;
-    line-height: 81.11px;
-    color: #000000;
-    margin-top: 12px;
-}
-h2 {
-    width: 414px;
-    height: 62px;
-    top: 427px;
-    left: 122px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
-    color: #000000;
-
-}
-.top {
-    display: flex;
-    flex-direction:row ;
-    gap: 8px;
-    align-items: center;
-}
-.vse {
-    display: flex;
-    flex-direction: column;
-}
-header{
-    margin-top: 20px;
-}
-.header_icon{
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-}
-.card_center{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-.people {
-    width: 304px;
-    height: 356px;
-    top: 223px;
-    left: 890px;
-    margin-left: 150px;
-    margin-top: 10px;
-}
-
-.card_center {
-    padding: 80px;
-}
-h3{
-    font-family: "Roboto Slab", serif;
-    text-align: left;
-    border-radius: 5px;
-    font-weight: 400;
-    font-size: 17px;
-    width: 82%;
-}
-.botom_text{
-    border: 1px solid #1E4681;
-    background-color: #1E4681;
-    color: #FFFFFF;
-    width: 380px;
-    height: 134px;
-    text-align: center;
-    padding: 14px;
-    margin: auto;
-}
-.andrey {
-    text-align: end;
-    font-size: 18px !important;
-}
-
-
-
-
 
 .grid-part {
   padding: 50px;
@@ -156,7 +17,7 @@ h3{
 .grid-part h2 {
 font-size: 55px;
 margin-bottom: 80px;
-margin-left: 20px;
+
 }
 .grid-sec {
   display: grid;
@@ -167,7 +28,8 @@ margin-left: 20px;
 }
 
 .item {
-
+    /* width: 400px;
+    height: 330px; */
   border-radius: 30px;
   box-shadow: 5px 10px 18px #bababa;
   overflow: hidden;
@@ -282,12 +144,11 @@ footer{
     width: 45%;
 }
 .number{
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 500;
 }
 .section_tittle{
     font-size: 70px;
-    width: 70%;
     font-family: "Roboto Slab", serif;
 }
 .card_text{
@@ -299,20 +160,53 @@ footer{
     font-weight: 400;
     font-size: 20px;
 }
-.grid-part h2 {
-    font-size: 35;
-    width: 80%;
+.persons{
+    background-color: #efefef ;
+    padding: 76px;
+}
+.persons h1{
+    font-weight: 700;
+    font-family: "Roboto Slab", serif;
+    font-size: 55px;
+}
+.persons h3{
+    font-family:"Roboto Slab", serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+.persons #card{
+   
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 17.38px;
+    width: 58%;
+    margin-bottom: 50px;
+    box-shadow: 5px 10px 18px #bababa;
+    padding: 40px;
+}
+.persons #avatar{
+    width:25% ;
+    margin-top: 20px;
 
-    font-weight: bold;
-    margin-bottom: 60px;
-    
-    }
-    .section_head{
-        display: flex;
-        flex-direction: column;
-        gap: 6px;
-    }
-
+}
+.persons #fb{
+    width: 10%;
+    margin-top: 23px;
+}
+.persons  p{
+    font-size: 20px;
+    font-weight: 400;
+    width: 95%;
+    line-height: 30px;  
+}
+.persons .div1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.persons .div2{
+    margin-top: 30px;
+}
 @media (max-width:991px){
     .grid-part h2 {
         font-size: 32px;
@@ -362,118 +256,6 @@ margin-bottom: 20px;
 
 
 @media (min-width: 420px) and (max-width: 576px){
-    .sinxro{
-        width: 52.19px;
-        height: 30.75px;
-        position: absolute;
-        left: 50px;
-    }
-    .globe {
-        width: 10.25px;
-        height: 9.79px;
-    }
-    .kurs {
-        width: 60.58px;
-        height: 14.91px;
-        font-family: "Roboto", sans-serif;
-        font-weight: 400;
-        font-size: 10px;
-    }
-    .watch {
-        width: 10.25px;
-        height: 10.25px;
-    }
-    .saat {
-        width: 60.58px;
-        height: 14.91px;
-        font-family: "Roboto", sans-serif;
-        font-weight: 400;
-        font-size: 10px;
-        color: #000000;
-    }
-    .calendar {
-        width: 9.32px;
-        height: 10.25px;
-    }
-    .sentyabr {
-        width: 60.58px;
-        height: 14.91px;
-        font-family: "Roboto", sans-serif;
-        font-weight: 400;
-        font-size: 10px;
-    }
-     h1 {
-        width: 292.63px;
-        height: 88.53px;
-        font-family: "Roboto Slab", serif;
-        font-weight: 700;
-        font-size: 37px;
-        line-height: 37.51px;
-        color: #000000;
-        margin-top: 12px;
-    }
-    h2 {
-        width: 212.4px;
-        height: 28.96px;
-        font-family: "Roboto", sans-serif;
-        font-weight: 400;
-        font-size: 10px;
-        line-height: 15px;
-        color: #000000;
-
-    }
-    .people {
-        width: 141.68px;
-        height: 175.1px;
-    }
-    .card_center {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    header{
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        align-items: baseline;
-        margin-left: 0px !important;
-    }
-    .title_text{
-        display: flex;
-        flex-direction: column;
-        gap: 16px;
-    }
-    .botom_text{
-        border: 1px solid #1E4681;
-        background-color: #1E4681;
-        color: #FFFFFF;
-        width: 225.36px;
-        height: 114px;
-        text-align: center;
-        padding: 15px;
-        margin: auto;
-    }
-    .andrey{
-        font-size: 15px !important;
-    }
-    h3 {
-        font-family: "Roboto Slab", serif;
-        text-align: left;
-        border-radius: 5px;
-        font-weight: 400;
-        width: 92%;
-        font-size: 11px;
-        margin-bottom: 10px;
-    }
-    .andrey {
-        font-size: 10px;
-    }
-    .top{
-        align-items: baseline !important;
-    }
-    .header_icon{
-        gap: 5px;
-    }
     .footer_card {
         flex-direction: column;
         align-items: flex-start;
@@ -508,10 +290,8 @@ margin-bottom: 20px;
     margin-left: 9%;
 }
 .section_tittle {
-    line-height: 29px;
     font-size: 34px;
     width: 88%;
-    margin-bottom: 31px;
 }
 .course_start{
     padding: 35px 51px !important;
@@ -538,213 +318,11 @@ margin-bottom: 20px;
     display: flex;
     gap: 20px;
 }
-.section_head{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
 }
 
 
 @media (min-width: 577px) and (max-width: 991px) {
-      .sinxro {
-        width: 64.87px;
-        height: 38.23px;
-        position: absolute;
-        left: 20px;
-    }
-    .globe {
-        width: 12.74px;
-        height: 12.16px;
-    }
-    .kurs {
-        font-family: "Roboto", sans-serif;
-        font-weight: 400;
-        font-size: 12px;
-    }
-    .watch {
-        width: 12.74px;
-        height: 12.74px;
-    }
-    .saat {
-        width: 75.29px;
-        height: 18.53px;
-        font-family: "Roboto", sans-serif;
-        font-weight: 400;
-        font-size: 12px;
-        color: #000000;
-    }
-    .calendar {
-        width: 11.58px;
-        height: 12.74px;
-    }
-    .sentyabr {
-        width: 75.29px;
-        height: 18.53px;
-        font-family: "Roboto", sans-serif;
-        font-weight: 400;
-        font-size: 12px;
-    }
-    h1 {
-        width: 363.72px;
-        height: 110.04px;
-        font-family: "Roboto Slab", serif;
-        font-weight: 700;
-        font-size: 46px;
-        line-height: 46.64px;
-        color: #000000;
-        margin-top: 12px;
-    }
-    h2 {
-        width: 264px;
-        height: 36px;
-        font-family: "Roboto", sans-serif;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 18px;
-        color: #000000;
-        margin-top: -45px;
-    }
-    .people {
-        width: 176.07px;
-        height: 206.18px;
-    }
-    .card_center {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    header{
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        align-items: baseline;
-        margin-left: 0px !important;
-    }
-    .title_text{
-        display: flex;
-        flex-direction: column;
-        gap: 16px;
-    }
-    .botom_text {
-        border: 1px solid #1E4681;
-        background-color: #1E4681;
-        color: #FFFFFF;
-        width: 280.11px;
-        height: 115.83px;
-        text-align: center;
-        padding: 15px;
-        margin: auto;
-    }
-    h3 {
-        font-family: "Roboto Slab", serif;
-        text-align: left;
-        border-radius: 5px;
-        font-weight: 400;
-        font-size: 14px;
-    }
-    .andrey {
-        font-size: 12px;
-    }
-    .sinxro {
-        width: 64.87px;
-        height: 38.23px;
-        position: absolute;
-        left: 20px;
-    }
-    .globe {
-        width: 12.74px;
-        height: 12.16px;
-    }
-    .kurs {
-        font-family: "Roboto", sans-serif;
-        font-weight: 400;
-        font-size: 12px;
-    }
-    .watch {
-        width: 12.74px;
-        height: 12.74px;
-    }
-    .saat {
-        width: 75.29px;
-        height: 18.53px;
-        font-family: "Roboto", sans-serif;
-        font-weight: 400;
-        font-size: 12px;
-        color: #000000;
-    }
-    .calendar {
-        width: 11.58px;
-        height: 12.74px;
-    }
-    .sentyabr {
-        width: 75.29px;
-        height: 18.53px;
-        font-family: "Roboto", sans-serif;
-        font-weight: 400;
-        font-size: 12px;
-    }
-    h1 {
-        width: 363.72px;
-        height: 110.04px;
-        font-family: "Roboto Slab", serif;
-        font-weight: 700;
-        font-size: 46px;
-        line-height: 46.64px;
-        color: #000000;
-        margin-top: 12px;
-    }
-    h2 {
-        width: 264px;
-        height: 36px;
-        font-family: "Roboto", sans-serif;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 18px;
-        color: #000000;
-        margin-top: -45px;
-    }
-    .people {
-        width: 176.07px;
-        height: 206.18px;
-    }
-    .card_center {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    header{
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        align-items: baseline;
-        margin-left: 0px !important;
-    }
-    .title_text{
-        display: flex;
-        flex-direction: column;
-        gap: 16px;
-    }
-    .botom_text {
-        border: 1px solid #1E4681;
-        background-color: #1E4681;
-        color: #FFFFFF;
-        width: 280.11px;
-        height: 115.83px;
-        text-align: center;
-        padding: 15px;
-        margin: auto;
-    }
-    h3 {
-        font-family: "Roboto Slab", serif;
-        text-align: left;
-        border-radius: 5px;
-        font-weight: 400;
-        font-size: 14px;
-    }
-    .andrey {
-        font-size: 12px;
-    }
+   
     .left_top {
         display: flex;
         gap: 22px;
@@ -794,20 +372,62 @@ margin-bottom: 20px;
     gap: 10px;
 }
 .course_start{
-    padding: 74px 50px !important;
+    padding: 34px 50px !important;
  
 }
 .section_tittle {
     font-size: 50px !important;
     font-family: "Roboto Slab", serif;
     width: 89% !important;
-    margin-bottom: 54px;
-    line-height: 40px;
 }
-.section_head{
+.persons{
+    background-color: #efefef ;
+    padding: 50px;
+}
+.persons h1{
+    font-weight: 700;
+    font-family: "Roboto Slab", serif;
+    font-size: 32px;
+    line-height: 32.44px;
+}
+.persons h3{
+    font-family:"Roboto Slab", serif;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 17.24px;
+}
+.persons #card{
+   
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 17.38px;
+    width: 80%;
+    margin-bottom: 30px;
+    box-shadow: 5px 10px 18px #bababa;
+    padding: 30px;
+}
+.persons #avatar{
+    width:25% ;
+    margin-top: 18px;
+
+}
+.persons #fb{
+    width: 10%;
+    margin-top: 20px;
+}
+.persons  p{
+    font-size: 12px;
+    font-weight: 400;
+    width: 95%;
+    line-height: 18px;  
+}
+.persons .div1{
     display: flex;
-    flex-direction: column;
-    gap: 10px;
+    align-items: center;
+    gap: 13px;
+}
+.persons .div2{
+    margin-top: 20px;
 }
 }
 
